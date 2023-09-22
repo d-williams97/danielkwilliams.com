@@ -36,7 +36,7 @@ const Contact = () => {
           <article className='contact__option'>
           <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <a href="mailto:" target='_blank' rel="">Fill out contact form</a>
+            <a>Fill out contact form</a>
           </article>
 
           <article className='contact__option'>
