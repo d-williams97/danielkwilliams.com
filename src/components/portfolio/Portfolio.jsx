@@ -49,7 +49,7 @@ const data = [
     id: 4,
     title: "React Portfolio Website",
     image: IMG4,
-    github: "https://github.com/d-williams97/danielkwilliams.co.uk",
+    github: "https://github.com/d-williams97/danielkwilliams.com",
     demo: "https://danielkwilliams.co.uk",
     description: 'Stack: React, CSS.'
   }
