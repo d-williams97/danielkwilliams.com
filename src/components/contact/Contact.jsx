@@ -20,8 +20,6 @@ const Contact = () => {
           console.log(error.text);
       }
       );
-
-
       e.target.reset()
   };
   
@@ -40,14 +38,6 @@ const Contact = () => {
             <h4>Email</h4>
             <a href="mailto:danielkwasi@hotmail.co.uk" target='_blank' rel="">Send a message</a>
           </article>
-          { /* 
-          <article className='contact__option'>
-          <BiMessageRoundedDetail className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>Daniel Williams</h5>
-            <a href="mailto:danielkwasi@hotmail.co.uk" target='_blank'>Send a message</a>
-          </article>
-        */}
 
           <article className='contact__option'>
           <BsLinkedin className='contact__option-icon'/>

@@ -18,26 +18,6 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          {/* <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>200+ WorldWide </small>
-            </article>
-
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Communication</h5>
-              <small>80+ Completed </small>
-            </article>
-
-            <article className="about__card">
-              <LuFolders className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years</small>
-            </article>
-          </div> */}
-
           <p>
             From youth work to content creation to digital marketing to software
             development, my coding journey began after collaborating with the
