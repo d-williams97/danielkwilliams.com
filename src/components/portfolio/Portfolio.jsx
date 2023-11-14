@@ -23,9 +23,9 @@ const data = [
     id: 1,
     title: "Gazetteer",
     image: IMG1,
-    github: "https://github.com/d-williams97/danielWilliams/tree/main/project1",
-    demo: "https://danielkwilliams.co.uk/gazetteer/",
-    description: 'Stack: Javascript, jQuery, PHP, Bootstrap.',
+    github: "https://github.com/d-williams97/React-Gazetteer",
+    demo: "https://react-gazetteer-client.vercel.app/",
+    description: 'Stack: Javascript, React, Node.js, Bootstrap.',
     // description2: 'This repository is set to private. Please request an invite to view source code on GitHub'
   },
   {
