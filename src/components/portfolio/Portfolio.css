@@ -26,6 +26,22 @@
 
 }
 
+.portfolio__item-image video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1.5rem;
+}
+
+.portfolio__item-image a {
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio__item-image a:hover {
+  opacity: 0.9;
+}
+
 .portfolio__item h3 {
   margin-top: 1.2rem;
   margin-bottom: 0.6rem;
