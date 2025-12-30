@@ -33,7 +33,7 @@ const data = [
     video: VIDEO2,
     github: "https://github.com/d-williams97/React-Gazetteer",
     demo: "https://react-gazetteer-client.vercel.app/",
-    description: "Stack: JavaScript, React, Node.js, Bootstrap.",
+    description: "Stack: React, Bootstrap, Node.js, Express.",
     // description2: 'This repository is set to private. Please request an invite to view source code on GitHub'
   },
   {
