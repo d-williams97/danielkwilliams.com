@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import VIDEO1 from "../../assets/scrybe-preview.mp4";
-import IMG1 from "../../assets/gazetteer.jpg";
+import VIDEO2 from "../../assets/globe-explorer-preview.mp4";
 import IMG2 from "../../assets/CompanyDirectory.jpg";
 import IMG3 from "../../assets/expenseTracker.jpg";
 import IMG4 from "../../assets/PortfolioWebsite.jpg";
@@ -30,7 +30,7 @@ const data = [
   {
     id: 2,
     title: "Globe Explorer",
-    image: IMG1,
+    video: VIDEO2,
     github: "https://github.com/d-williams97/React-Gazetteer",
     demo: "https://react-gazetteer-client.vercel.app/",
     description: "Stack: JavaScript, React, Node.js, Bootstrap.",
