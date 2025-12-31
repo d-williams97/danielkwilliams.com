@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import VIDEO1 from "../../assets/scrybe-preview.mp4";
 import VIDEO2 from "../../assets/globe-explorer-preview.mp4";
-import IMG2 from "../../assets/CompanyDirectory.jpg";
+// import IMG2 from "../../assets/CompanyDirectory.jpg";
 import IMG3 from "../../assets/expenseTracker.jpg";
 import IMG4 from "../../assets/PortfolioWebsite.jpg";
 
@@ -21,11 +21,11 @@ const data = [
     id: 1,
     title: "Scrybe AI",
     video: VIDEO1,
-    demo: "https://scrybe-wine.vercel.app/",
     github: "https://github.com/d-williams97/scrybe",
+    demo: "https://scrybe-wine.vercel.app/",
     description: "Stack: Next.js, Tailwind, Node.js, LangChain.",
     description2:
-      "Scrybe is an AI-powered YouTube video summariser with customisable settings and timestamps. It features a chat interface for querying video content using RAG (Retrieval-Augmented Generation) technology.",
+      "Built in 2025, Scrybe is an AI-powered YouTube video summariser with customisable settings and timestamps. It features a chat interface for querying video content using RAG (Retrieval-Augmented Generation) technology.",
   },
   {
     id: 2,
@@ -34,7 +34,8 @@ const data = [
     github: "https://github.com/d-williams97/React-Gazetteer",
     demo: "https://react-gazetteer-client.vercel.app/",
     description: "Stack: React, Bootstrap, Node.js, Express.",
-    // description2: 'This repository is set to private. Please request an invite to view source code on GitHub'
+    description2:
+      "Built in 2023, Globe Explorer is an interactive geographical reference tool for exploring countries, cities, airports, and more.",
   },
   // {
   //   id: 3,
@@ -50,15 +51,17 @@ const data = [
     title: "React Expense Tracker",
     image: IMG3,
     github: "https://github.com/d-williams97/React-Expense-Tracker",
-    demo: "https://danielkwilliams.co.uk/expense_tracker/",
+    demo: "https://expense-tracker-danielwilliams.vercel.app/",
     description: "Stack: JavaScript, React, CSS.",
+    description2:
+      "Built in 2023, React Expense Tracker is a simple expense tracker app that allows you to add, edit, and delete expenses.",
   },
   {
     id: 5,
     title: "React Portfolio Website",
     image: IMG4,
     github: "https://github.com/d-williams97/danielkwilliams.com",
-    demo: "https://danielkwilliams.co.uk",
+    demo: "https://danielwilliamsportfolio.vercel.app/",
     description: "Stack: JavaScript, React, CSS.",
   },
 ];
