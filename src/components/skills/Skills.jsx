@@ -4,7 +4,6 @@ import { BsPatchCheckFill } from "react-icons/bs";
 // import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap } from "react-icons/fa";
 // import { BiLogoJavascript, BiLogoJquery} from "react-icons/bi";
 
-
 const Skills = () => {
   return (
     <section id="">
@@ -15,44 +14,44 @@ const Skills = () => {
           <h3> Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon'  />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>Typescript</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>CSS</h4>
+                <h4>Next.js</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>JavaScript</h4>
+                <h4>Tailwind</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill  className='experience__details-icon'/>
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>Bootstrap</h4>
+                <h4>Shadcn UI</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>jQuery</h4>
+                <h4>Cursor</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>React</h4>
+                <h4>React</h4>
               </div>
             </article>
           </div>
@@ -62,32 +61,45 @@ const Skills = () => {
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
-
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>NodeJS</h4>
+                <h4>NodeJS</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>Express</h4>
+                <h4>Postgres SQL</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>PHP</h4>
+                <h4>LangChain</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className='experience__details-icon' />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>MySQL</h4>
+                <h4>AWS Services</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>dbt</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Git</h4>
               </div>
             </article>
           </div>
