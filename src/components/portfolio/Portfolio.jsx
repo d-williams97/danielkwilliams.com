@@ -21,7 +21,7 @@ const data = [
     id: 1,
     title: "Scrybe AI",
     video: VIDEO1,
-    demo: "https://scrybe-kal3e747k-daniel-williams-projects.vercel.app/",
+    demo: "https://scrybe-wine.vercel.app/",
     github: "https://github.com/d-williams97/scrybe",
     description: "Stack: Next.js, Tailwind, Node.js, LangChain.",
     description2:
@@ -36,15 +36,15 @@ const data = [
     description: "Stack: React, Bootstrap, Node.js, Express.",
     // description2: 'This repository is set to private. Please request an invite to view source code on GitHub'
   },
-  {
-    id: 3,
-    title: "Company Directory",
-    image: IMG2,
-    github: "https://github.com/d-williams97/danielWilliams/tree/main/project2",
-    demo: "https://danielkwilliams.co.uk/company_directory/",
-    description: "Stack: JavaScript, jQuery, PHP, Bootstrap, MySQL.",
-    // description2: 'This repository is set to private. Please request an invite to view source code on GitHub'
-  },
+  // {
+  //   id: 3,
+  //   title: "Company Directory",
+  //   image: IMG2,
+  //   github: "https://github.com/d-williams97/danielWilliams/tree/main/project2",
+  //   demo: "https://danielkwilliams.co.uk/company_directory/",
+  //   description: "Stack: JavaScript, jQuery, PHP, Bootstrap, MySQL.",
+  //   // description2: 'This repository is set to private. Please request an invite to view source code on GitHub'
+  // },
   {
     id: 4,
     title: "React Expense Tracker",
