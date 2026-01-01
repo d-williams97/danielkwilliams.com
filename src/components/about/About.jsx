@@ -20,13 +20,12 @@ const About = () => {
         <div className="about__content">
           <p>
             I’m a software engineer with 2+ years of experience building,
-            maintaining, and deploying production software. I enjoy owning
-            feature development, collaborating across teams, and delivering
-            scalable, reliable solutions. With previous experience in digital
-            marketing and content management, I bring a user-focused mindset and
-            strong attention to design. I’m passionate about best frontend
-            practices, leveraging AI to improve productivity, continuous growth
-            as an engineer, and having fun building cool applications!
+            maintaining, and deploying scalable production software. With
+            previous experience in digital marketing and content management, I
+            bring a user-focused mindset and strong attention to design. I’m big
+            on implementing frontend best practices, leveraging AI to improve
+            productivity, continuous growth as an engineer, and having a blast
+            building cool applications!
           </p>
           <p>
             In my free time, you’ll usually find me at a local parkrun, on the
