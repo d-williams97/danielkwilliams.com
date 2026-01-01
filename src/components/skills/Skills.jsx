@@ -54,6 +54,20 @@ const Skills = () => {
                 <h4>React</h4>
               </div>
             </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Jest</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Playwright</h4>
+              </div>
+            </article>
           </div>
         </div>
         {/* {end of frontend } */}

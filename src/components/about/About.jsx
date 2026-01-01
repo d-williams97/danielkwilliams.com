@@ -19,20 +19,19 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            From youth work to content creation to digital marketing to software
-            development, my coding journey began after collaborating with the
-            UX/UI team during my digital marketing role. This experience ignited
-            my interest in the world of coding. I started by completing several
-            online courses and then enrolled in a bootcamp. Developing software
-            is extremely rewarding, and I derive great pleasure from exercising
-            the problem-solving and creative skills required to build robust and
-            efficient software solutions.
+            I’m a software engineer with 2+ years of experience building,
+            maintaining, and deploying production software. I enjoy owning
+            feature development, collaborating across teams, and delivering
+            scalable, reliable solutions. With previous experience in digital
+            marketing and content management, I bring a user-focused mindset and
+            strong attention to design. I’m passionate about best frontend
+            practices, leveraging AI to improve productivity, continuous growth
+            as an engineer, and having fun building cool applications!
           </p>
           <p>
-            When I'm not coding, you can find me on the basketball court
-            shooting hoops, at the local park running in a park run, or behind a
-            camera creating videos with my friends or working on freelance
-            projects.
+            In my free time, you’ll usually find me at a local parkrun, on the
+            basketball court shooting hoops, behind a camera creating videos or
+            coding personal projects.
           </p>
 
           <a href="#contact" className="btn btn-primary">
