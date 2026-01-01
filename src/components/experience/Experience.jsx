@@ -1,6 +1,5 @@
 import React from "react";
 import "./Experience.css";
-import { BiCheck } from "react-icons/bi";
 
 const Experience = () => {
   return (
@@ -15,26 +14,36 @@ const Experience = () => {
             <h3>Employment</h3>
           </div>
 
-          <div className="job__div">
-            <h3>Digital Marketing Executive</h3>
-            <p className="description">
-              {" "}
-              <i>Brainlabs</i> &#9679; Jan 2022 - Mar 2023{" "}
-            </p>
-          </div>
+          <div className="employment__content">
+            <div className="job__div">
+              <h3>Software Engineer</h3>
+              <p className="description">
+                {" "}
+                <i>Dynamon</i> &#9679; Jan 2024 - Present{" "}
+              </p>
+            </div>
 
-          <div className="job__div">
-            <h3>Charity Consultant</h3>
-            <p className="description">
-              <i>Fusion Movement</i> &#9679; Mar 2021 - Jan 2022{" "}
-            </p>
-          </div>
+            <div className="job__div">
+              <h3>Digital Marketing Executive</h3>
+              <p className="description">
+                {" "}
+                <i>Brainlabs</i> &#9679; Jan 2022 - Apr 2023{" "}
+              </p>
+            </div>
 
-          <div className="job__div">
-            <h3>Content and Media Officer</h3>
-            <p className="description">
-              <i>City Life Church</i> &#9679; Jan 2019 - Mar 2021
-            </p>
+            <div className="job__div">
+              <h3>Charity Consultant</h3>
+              <p className="description">
+                <i>Fusion Movement</i> &#9679; Mar 2021 - Jan 2022{" "}
+              </p>
+            </div>
+
+            <div className="job__div">
+              <h3>Content and Media Officer</h3>
+              <p className="description">
+                <i>City Life Church</i> &#9679; Jan 2019 - Mar 2021
+              </p>
+            </div>
           </div>
         </article>
 

@@ -1,71 +1,100 @@
 .services__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
 }
 
 .service {
-    background: var(--color-bg-variant);
-    border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
-    height: fit-content;
-    transition: var(--transition);
-
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+  height: fit-content;
+  transition: var(--transition);
 }
 .service:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 .service__head {
-    background-color: var(--color-primary);
-    padding: 2rem;
-    border-radius: 0 0 2rem 2rem;
-    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  background-color: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .service__head h3 {
-    text-align: center;
-    color: var(--color-bg);
-    font-size: 1rem;
+  text-align: center;
+  color: var(--color-bg);
+  font-size: 1rem;
 }
 
 .job__div {
-    margin: 2rem 0rem;
-    text-align: center;
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+/* Employment section with 2 columns */
+.service:first-child .employment__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 0.1rem; */
+  padding: 1rem;
+}
+
+/* Reduce spacing between job items in employment section */
+.service:first-child .job__div {
+  margin: 1rem 0rem;
 }
 
 .description {
-    color:var(--color-light);
+  color: var(--color-light);
 }
-
-
 
 /* ============ MEDIA QUERIES (MEDIUM DEVCIES - TABLETS) ============= */
 
-@media screen and (max-width: 1024px) { /* 1024px or less */
-    .services__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
-
-    .service {
-        height: auto;
-    }
-  
-   
+@media screen and (max-width: 1200px) {
+  /* Stack education below employment on smaller laptop screens */
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
-  /* ============ MEDIA QUERIES (SMALL DEVCIES - MOBILE) ============= */
-  
-  @media screen and (max-width: 600px) {
-    .services__container {
-      width: var(--container-width-md);
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
- 
-    }
-  
 
+  .service {
+    height: auto;
   }
+
+  .service:first-child .employment__content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* 1024px or less */
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .service {
+    height: auto;
+  }
+
+  .service:first-child .employment__content {
+    grid-template-columns: 1fr;
+  }
+}
+/* ============ MEDIA QUERIES (SMALL DEVCIES - MOBILE) ============= */
+
+@media screen and (max-width: 600px) {
+  .services__container {
+    width: var(--container-width-md);
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .service:first-child .employment__content {
+    grid-template-columns: 1fr;
+  }
+}
