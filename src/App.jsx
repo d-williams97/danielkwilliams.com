@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from "react";
 import "./App.css";
 import "./components/about/About";
 import Header from "./components/header/Header";
@@ -8,31 +8,30 @@ import Contact from "./components/contact/Contact";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
 import Portfolio from "./components/portfolio/Portfolio";
-import Preloader from './components/preloader/Preloader';
-import Experience from './components/experience/Experience';
+import Preloader from "./components/preloader/Preloader";
+import Experience from "./components/experience/Experience";
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false)
-    },2000)
-  },[])
+      setLoading(false);
+    }, 2000);
+  }, []);
 
   return (
     <>
-    <Preloader loading={loading}/>
+      <Preloader loading={loading} />
       <Header />
       <Nav />
       <About />
       <Skills />
       <Portfolio />
-      <Experience/>
+      <Experience />
       <Contact />
       <Footer />
     </>
-  
   );
 }
 

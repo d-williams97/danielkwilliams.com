@@ -1,52 +1,87 @@
- nav {
-    background: rgba(0, 0, 0, 0.3);
-    width: max-content;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(10px);
+}
+
+nav a {
+  background-color: transparent;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  display: flex;
+  color: var(--color-light);
+  position: relative;
+}
+
+/* Tooltip styles */
+nav a::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: var(--color-bg);
+  color: var(--color-white);
+  font-size: 0.75rem;
+  white-space: nowrap;
+  border-radius: 0.4rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+/* nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
     left: 50%;
-    transform: translateX(-50%); 
-    bottom: 2rem;
-    display: flex;
-    gap: 1rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(10px);
-}
+    transform: translateX(-50%);
+    margin-bottom: 0.1rem;
+    border: 5px solid transparent;
+    border-top-color: var(--color-bg);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+} */
 
- nav a {
-    background-color: transparent;
-    padding: 0.8rem;
-    font-size: 1.5rem;
-    display: flex;
-    color: var(--color-light);
+/* nav a:hover::after, */
+nav a:hover::before {
+  opacity: 1;
 }
-
 
 nav a:hover {
-    background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .active {
-    background: var(--color-primary);
-    color: var(--color-bg);
-    border-radius: 1rem;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  border-radius: 1rem;
 }
 
-
-@media screen and (max-width: 400px) { 
-    nav {
-        width: 90%;
-        gap: 0.8rem;
-
-    }
+@media screen and (max-width: 400px) {
+  nav {
+    width: 90%;
+    gap: 0.8rem;
+  }
 }
 
-@media screen and (max-width: 350px) { 
-    nav {
-        width: 90%;
-        gap: 0.5rem;
-
-    }
-
-
+@media screen and (max-width: 350px) {
+  nav {
+    width: 90%;
+    gap: 0.5rem;
+  }
 }
