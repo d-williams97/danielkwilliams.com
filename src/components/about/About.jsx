@@ -19,7 +19,7 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            I’m a software engineer with 2+ years of experience building,
+            I’m a frontend engineer with 2+ years of experience building,
             maintaining, and deploying scalable production software. With
             previous experience in digital marketing and content management, I
             bring a user-focused mindset and strong attention to design. I’m big

@@ -16,7 +16,7 @@ const Experience = () => {
 
           <div className="employment__content">
             <div className="job__div">
-              <h3>Software Engineer</h3>
+              <h3>Frontend Engineer</h3>
               <p className="description">
                 {" "}
                 <i>Dynamon</i> &#9679; Jan 2024 - Present{" "}

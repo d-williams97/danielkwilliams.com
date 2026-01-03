@@ -23,7 +23,7 @@ const data = [
     video: VIDEO1,
     github: "https://github.com/d-williams97/scrybe",
     demo: "https://scrybe-wine.vercel.app/",
-    description: "Stack: Next.js, Tailwind, Node.js, LangChain.",
+    description: "Stack: Next.js, Tailwind, Node.js, Pinecone, LangChain.",
     description2:
       "Built in 2025, Scrybe is an AI-powered YouTube video summariser with customisable settings and timestamps. It features a chat interface for querying video content using RAG (Retrieval-Augmented Generation) technology.",
   },
